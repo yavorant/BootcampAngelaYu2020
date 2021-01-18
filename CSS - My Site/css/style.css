@@ -14,6 +14,7 @@ div {
 .top-container {
   background-color: #74c7b8;
   position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
@@ -40,4 +41,12 @@ div {
 
 .bottom-cloud {
   position: absolute;
+  right: 400px;
+  bottom: 330px;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 450px;
+  top: 50px;
 }
