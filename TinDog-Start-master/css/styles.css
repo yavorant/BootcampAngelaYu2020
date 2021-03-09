@@ -50,3 +50,27 @@ h1 {
   transform: rotate(25deg);
   width: 60%;
 }
+
+.features-icons {
+  color: #ef8172;
+  margin: 5% 20%;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+#features {
+  margin: 10% 15%;
+  text-align: center;
+}
+
+#features h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#features p {
+  color: #8f8f8f;
+}
