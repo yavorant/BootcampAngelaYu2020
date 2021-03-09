@@ -74,3 +74,34 @@ h1 {
 #features p {
   color: #8f8f8f;
 }
+
+/* Testimonials section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#testimonials h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
