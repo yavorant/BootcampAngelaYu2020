@@ -106,6 +106,10 @@ h1 {
   margin: 20px 20px 50px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
