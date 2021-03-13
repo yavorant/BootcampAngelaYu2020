@@ -48,7 +48,8 @@ h1 {
 
 .iphoneImg {
   transform: rotate(25deg);
-  width: 60%;
+  width: 30%;
+  position: absolute;
 }
 
 .features-icons {
@@ -61,8 +62,9 @@ h1 {
 }
 
 #features {
-  margin: 10% 15%;
-  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
 }
 
 #features h3 {
@@ -112,4 +114,15 @@ h1 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1024px) {
+  #title {
+    text-align: center;  
+  }
+
+  .iphoneImg {
+    position: static;
+    transform: rotate(0);
+  }
 }
