@@ -118,11 +118,37 @@ h1 {
 
 @media (max-width: 1024px) {
   #title {
-    text-align: center;  
+    text-align: center;
   }
 
   .iphoneImg {
     position: static;
     transform: rotate(0);
   }
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#cta h3 {
+  padding-top: 3rem;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  margin: 20px 50px;
+  padding: 1rem;
+}
+
+#footer i {
+  padding: 1rem;
 }
